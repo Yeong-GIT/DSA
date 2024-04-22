@@ -1,8 +1,8 @@
-package LinkedList;
+package SinglyLinkedList;
 
 public class EmployeeNode {
-    private Employee employee;
-    private EmployeeNode next;
+    private Employee employee; // Node for the employee
+    private EmployeeNode next; // Reference for the next node storage
 
     public EmployeeNode(Employee employee){
         this.employee = employee;
