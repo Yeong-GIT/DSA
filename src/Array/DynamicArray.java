@@ -79,6 +79,8 @@ public class DynamicArray {
                     //   - size is the total number of elements in the array.
                     //   - i is the index of the element to be deleted (e.g., 2 for array[2]).
                     //   - Subtract 1 because you are starting the shift from the next element.
+                    //   - J starts from 0 is only to find the maximum number of shifting required
+                    //   - J index shall be used for further implying shifting logic
                     array[i + j] = array[i + j + 1];
                     // Example of operations if i = 2 (deleting array[2]):
                     //   - First iteration (j = 0): array[2] = array[3], shifts array[3] to array[2]
