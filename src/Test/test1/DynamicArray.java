@@ -1,4 +1,4 @@
-package Test;
+package Test.test1;
 
 public class DynamicArray {
    int size;
